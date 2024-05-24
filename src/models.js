@@ -9,4 +9,6 @@ const dataSchema = new mongoose.Schema({
         required: true
     }
 })
-module.exports = mongoose.model('data',dataSchema)
+const model = mongoose.model('data',dataSchema)
+
+export default model
